@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEX BOX - Alinhamento Cross Axis</title>
+
+    <style>
+        body {
+            background-color: black;
+            color: white
+        }
+
+        .flex-container {
+            height: 400px;
+            border: solid crimson;
+            display: flex;
+            flex-direction: row;
+
+            align-items: start;
+            justify-content: start;
+            justify-content: space-between;
+            justify-content: space-around;
+            justify-content: center;
+            justify-content: space-evenly;
+            justify-content: end;
+        }
+
+        .flex-container > div {
+            border: solid cyan 5px;
+            padding: 5px;
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Flex Box: Alinhamento Cross Axis</h1>
+    <div class="flex-container">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+        <div>4</div>
+        <div>5</div>
+    </div>
+</body>
+</html>
