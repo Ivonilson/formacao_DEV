@@ -1,3 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-require("./tipos/variaveis");
+//import './tipos/variaveis';
+//import './tipos/array';
+//import './tipos/enums';
+//import './tipos/enums_const';
+require("./tipos/enums_tipo");
