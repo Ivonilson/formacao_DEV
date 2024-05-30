@@ -1,0 +1,8 @@
+async function obterDados(livro, cap, versiculo) {
+    const url = `https://bible-api.com/${livro} ${cap}:${versiculo}`;
+    const resposta = await fetch(url)
+    const dados = await resposta.json()
+    return console.log(dados.verses[0].text)
+}
+
+obterDados('luke', 1, 2)
