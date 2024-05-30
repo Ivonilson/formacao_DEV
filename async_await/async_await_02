@@ -5,4 +5,4 @@ async function obterDados(livro, cap, versiculo) {
     return console.log(dados.verses[0].text)
 }
 
-obterDados('luke', 1, 2)
+obterDados('luke', 1, 1)
